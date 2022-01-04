@@ -29,6 +29,7 @@ func (p Platform) String() string {
 // For a package to be considered fully compliant, these platforms need to be supported
 var Core = []Platform{
 	{Linux, Amd64},
+	{Linux, Arm64},
 	{Darwin, Amd64},
 	{Darwin, Arm64},
 }
